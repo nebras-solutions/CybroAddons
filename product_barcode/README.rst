@@ -31,6 +31,7 @@ Contact odoo@cybrosys.com
 Authors
 -------
 * Sreejith P <sreejith@cybrosys.in>
+* Slim B. <slim@nebras.tn>
 
 Maintainer
 ----------
