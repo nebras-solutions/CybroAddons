@@ -3,7 +3,7 @@
 #
 #    Cybrosys Technologies Pvt. Ltd.
 #    Copyright (C) 2017-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: Saritha Sahadevan (<https://www.cybrosys.com>)
+#    Author: Sreejith P(<https://www.cybrosys.com>)
 #
 #    This program is free software: you can modify
 #    it under the terms of the GNU Affero General Public License (AGPL) as
@@ -19,21 +19,23 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 ###################################################################################
+
 {
-    'name': "Import Product Image",
-    'version': '11.0.1.0.0',
-    'summary': """Import Product Image from CSV File""",
-    'description': """Import Product Image from CSV File(Web URL/File Path)""",
-    'author': "Cybrosys Techno Solutions",
-    'company': 'Cybrosys Techno Solutions',
+    'name': 'Product Barcode Generator',
+    'version': '10.0.1.0.0',
+    'summary': 'Generates EAN13 Standard Barcode for Product.',
+    'category': 'Inventory',
+    'author': 'Cybrosys Techno solutions',
     'maintainer': 'Cybrosys Techno Solutions',
-    'website': "https://www.cybrosys.com",
-    'category': 'Sales',
-    'depends': ['sale'],
-    'data': ['views/import_product_image_view.xml'],
-    'license': 'AGPL-3',
+    'company': 'Cybrosys Techno Solutions',
+    'website': 'https://www.cybrosys.com',
+    'depends': ['stock'],
+    'data': [
+        'views/product_label.xml',
+    ],
     'images': ['static/description/banner.jpg'],
-    'application': False,
+    'license': 'AGPL-3',
     'installable': True,
+    'application': False,
     'auto_install': False,
 }
